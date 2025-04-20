@@ -1,6 +1,6 @@
 
 ### server /boba/product/list
-GET {{url}}/boba/product/list
+GET http://127.0.0.1:8080/boba/product/list
 Accept: application/json
 
 

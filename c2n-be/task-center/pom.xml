@@ -41,6 +41,7 @@
         <dependency>
             <groupId>com.bobabrewery.repo</groupId>
             <artifactId>common-repo</artifactId>
+            <version>0.0.1beta</version>
         </dependency>
 
         <dependency>
@@ -137,6 +138,12 @@
         <dependency>
             <groupId>com.bobabrewery</groupId>
             <artifactId>partner-api</artifactId>
+            <version>0.0.1beta</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.bobabrewery.repo</groupId>
+            <artifactId>common-repo</artifactId>
             <version>0.0.1beta</version>
             <scope>compile</scope>
         </dependency>

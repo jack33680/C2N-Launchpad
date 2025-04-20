@@ -38,11 +38,26 @@
         <docker.username>chengxianglong@ecreditpal</docker.username>
         <docker.password>Pailie2022</docker.password>
         <docker.push>false</docker.push>
+        <lombok.version>1.18.30</lombok.version>
+        <telegram.version>6.7.0</telegram.version>
     </properties>
 
 
     <dependencyManagement>
         <dependencies>
+            <!--telegram-->
+            <dependency>
+                <groupId>org.telegram</groupId>
+                <artifactId>telegrambots</artifactId>
+                <version>${telegram.version}</version> <!-- 推荐使用最新稳定版 -->
+            </dependency>
+            <!--lombok-->
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+                <scope>provided</scope>
+            </dependency>
             <!--Spring Cloud 相关依赖-->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
